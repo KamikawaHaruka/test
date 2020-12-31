@@ -1,7 +1,13 @@
-article {
-    background-color: red;
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/ja/8/8e/Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG);
+    color: red;
 }
 
 article h1 {
     font-size :36px;
 }
+
+a:link { color: #0000ff; background: #ffffff; }
+a:visited { color: #000080; background: #ffffff; }
+a:hover { color: #ff3300; background: #ffffff; }
+a:active { color: #ff0000; background: #ffffff; }

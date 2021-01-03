@@ -1,13 +1,51 @@
+header {
+    padding-bottom: 15px;
+}
+
 body {
     background-image: url(https://upload.wikimedia.org/wikipedia/ja/8/8e/Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG);
+    background-repeat: no-repeat;
     color: red;
+    padding-left: 90px;
+}
+
+article {
+    padding-bottom: 15px;
 }
 
 article h1 {
     font-size :36px;
 }
 
-a:link { color: #0000ff; background: #ffffff; }
-a:visited { color: #000080; background: #ffffff; }
-a:hover { color: #ff3300; background: #ffffff; }
-a:active { color: #ff0000; background: #ffffff; }
+.wrapper {
+    padding-bottom: 15px;
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
+h3[title]:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+a:link { color: #0000ff; }
+a:visited { color: red; }
+a:hover { color: yellow; }
+a:active { color: #ff0000; }
+
+.name {
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+    border: 20px;
+    border-color: red;
+}
+
+.name p {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
